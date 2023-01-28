@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
 
-body{
 
-  background-image: url("travel.png") 
-  
-}
 
 .navbar-nav>li>a{
 
@@ -229,47 +225,6 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu.megamenu-content .title{
     }
 }
 
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 body{
   background-color: light;
 }
@@ -384,26 +339,30 @@ body{
 body {
   background: #111 !important;
 }
+.card-title{
 
+}
+}
 .card {
-  background: #222;
+  background: #fffff;
   border: 1px solid #dd2476;
-  color: rgba(250, 250, 250, 0.8);
+  color: black;
   margin-bottom: 2rem;
 }
-.card2 {
-  background: #222;
-  border: 1px solid #dd2476;
-  color: rgba(250, 250, 250, 0.8);
+
+.card2
+{
+    background: #fffff;
+  border: 0px solid #dd2476;
+  color: black;
   margin-bottom: 1rem;
 }
-
 .btn {
   border: 5px solid;
   border-image-slice: 1;
   background: var(--gradient) !important;
   -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  -webkit-text-fill-color: dark !important;
   border-image-source:  var(--gradient) !important; 
   text-decoration: none;
   transition: all .4s ease;
@@ -419,3 +378,4 @@ body {
 }
 
 
+.
